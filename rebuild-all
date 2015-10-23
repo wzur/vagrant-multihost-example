@@ -1,0 +1,9 @@
+sudo -l
+date >timing-01-start-date
+vagrant up --provider libvirt --no-provision --no-parallel
+echo starting machines finished
+sleep 2
+vagrant provision
+date >timing-02-vms-ready-date
+./run-ansible-vagrant.sh provisioning/site.yml
+date >timing-03-end-date

@@ -1,0 +1,15 @@
+- name: Configure server
+  hosts: all
+  sudo: True
+  tasks:
+    - name: Install Apache
+      apt: name=apache2 state=present update_cache=yes
+    - name: Example Ansible task
+      debug: msg="Ansible has provisioned that box"
+
+- name: Configure group01
+  hosts: group01
+  sudo: True
+  tasks:
+    - name: Example Ansible task
+      debug: msg="Example task for group01 for {{ ansible_fqdn }}"

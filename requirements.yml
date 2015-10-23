@@ -1,0 +1,10 @@
+# Import roles from Ansible Galaxy or a Git repository
+# ansible-galaxy install -r requirements.yml
+
+# from galaxy
+- src: geerlingguy.haproxy
+  version: 1.0.1
+  name: haproxy
+- src: geerlingguy.nginx
+  version: 1.4.0
+  name: nginx
