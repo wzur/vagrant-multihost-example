@@ -32,6 +32,7 @@ Virtualbox binaries are available at its [download page](https://www.virtualbox.
 ### QEMU ###
 
 QEMU is available as Linux packages in the modern distributions.
+Vagrant needs [Vagrant Libvirt Provider](https://github.com/pradels/vagrant-libvirt) - this can be installed with `vagrant plugin install vagrant-libvirt`
 
 ### Ansible ###
 
