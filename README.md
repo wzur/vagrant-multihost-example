@@ -38,6 +38,8 @@ Vagrant needs [Vagrant Libvirt Provider](https://github.com/pradels/vagrant-libv
 
 Please follow [installation instructions](http://docs.ansible.com/ansible/intro_installation.html) in the Ansible [documentation](http://docs.ansible.com).
 
+Please note: as there isn't Ansible implementation for MS Windows, this example won't start Ansible provisioner on that platform.
+
 ### Vagrant ###
 
 > Installing Vagrant is extremely easy. Head over to the [downloads page](http://www.vagrantup.com/downloads) and get the appropriate installer or package for your platform. Then install it using standard procedures for your operating system.
